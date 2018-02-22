@@ -28,6 +28,23 @@
 <div class="loader">
 	 <img id="drawerUserImage" class="img-dog" src="http://www.adriennely.com/wp-content/uploads/2017/07/dog_5-1.png"/>
 </div>
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Woohoo!</h2>
+  <p>LOADED!</p>
+</div>
 
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </body>
 </html>
