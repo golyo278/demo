@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $('.loader').fadeOut(1000);  /*FadeOut after page loaded*/
+    $('.loader').fadeOut(1000); 
     console.log("document loaded!");
 });
